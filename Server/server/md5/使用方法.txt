@@ -1,0 +1,3 @@
+MD5 md5;
+md5.update(const char*);//传入要加密的参数
+return md5.toString();//返回std::string
